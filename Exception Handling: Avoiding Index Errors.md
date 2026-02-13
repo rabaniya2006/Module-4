@@ -12,7 +12,17 @@ To write a Python program that handles an **IndexError** when trying to access a
 
 ## 🧾 Program
 Add code here
+```
+list1 = [10, 20, 30, 40]
 
+try:
+    print(list1[5])
+except IndexError:
+    print("You're out of list range")
+
+```
 ## Output
+<img width="408" height="163" alt="image" src="https://github.com/user-attachments/assets/4ef212e8-4bda-490f-ba8b-5e279026a588" />
 
 ## Result
+The program successfully handles an IndexError when trying to access a list element beyond its range. It prevents the program from crashing and prints a custom error message.
